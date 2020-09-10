@@ -1,0 +1,42 @@
+/* Portfolio page css */
+
+.filter button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background-color: var(--grey-background-color);
+  color: var(--title-text-color);
+  border: 0px;
+}
+.filter button:hover,
+.filter button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  border: 0px;
+  cursor: pointer;
+}
+
+.portfolio .link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
